@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>申请表</title>
+	</head>
+	<body>
+		<form action="index.html" method="get">
+			<table align="center" >
+				<caption>申请表</caption>
+				<tr align="left">
+					<td>姓名</td>
+					<td><input name="user_name" type="text"/></td>
+				</tr>
+				<tr align="left">
+					<td>性别</td>
+					<td><input name="user_sex" type="radio" value="man" checked="checked" />男
+						<input name="user_sex" type="radio" value="women" />女
+					</td>
+				</tr>
+				<tr align="left">
+					<td>教育程度</td>
+					<td><input name="user_education" type="checkbox" />专科
+						<input name="user_education" type="checkbox" />本科
+						<input name="user_education" type="checkbox" />硕士
+						<input name="user_education" type="checkbox" />博士
+					</td>
+				</tr>
+				<tr align="left">
+					<td>月薪</td>
+					<td><input name="user_salary" type="number" /></td>
+				</tr>
+				<tr>
+					<td>附注</td>
+					<td><textarea name="additon" rows="5" cols="30" value="请在这里输入附注"></textarea></td>
+				</tr>
+				<tr align="left">
+					<td>国籍</td>
+					<td>
+						<select name="user_country">
+							<option>美国</option>
+							<option selected="selected">中国</option>
+							<option>日本</option>
+							<option>英国</option>
+						</select>
+					</td>
+				</tr>
+				<tr align="left">
+					<td><input name="submit" type="submit" /></td>
+					<td><input name="reset" type="reset" /></td>
+				</tr>	
+			</table>
+		</form>
+	</body>
+</html>
