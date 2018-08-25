@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>外部样式2</title>
+		<link rel="stylesheet" href="css/task5_css.css" />
+	</head>
+
+	<body>
+		
+		<!--<hr />-->
+		<form action="index.html" method="get">
+			<!--	<table cellpadding="0px" cellspacing="0px" border="1px solid black;">-->
+			<table>
+				<tr><td colspan="3"><p style="font-size: 20px;">注册账号</p></td></tr>
+				<tr><td colspan="3"><hr /></td></tr>
+				<tr>
+					<td class="to_left">昵称</td>
+					<td><input class="to_input" type="text" name="nickname" /></td>
+					<td style="font-size: 12px;">请输入昵称</td>
+				</tr>
+				<tr>
+					<td class="to_left">密码</td>
+					<td><input class="to_input" type="password" name="user_pwd" /> </td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="to_left">确认密码</td>
+					<td><input class="to_input" type="password" name="confirm" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="to_left">性别</td>
+					<td class="item">
+						<div class="my_margin_left">
+							<input type="radio" name="user_sex" checked="checked" value="man" />男 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="user_sex" value="woman" />女
+						</div>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="to_left">生日</td>
+					<div class="my_margin_left">
+						<td>
+							&nbsp;&nbsp;
+							<select>
+								<option selected="selected">公历</option>
+								<option>农历</option>
+							</select>
+							<select>
+								<option>年</option>
+								<option>1995</option>
+								<option>1996</option>
+								<option>1997</option>
+								<option>1998</option>
+								<option>1999</option>
+							</select>
+							<select>
+								<option>月</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>
+							<select>
+								<option>日</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+							</select>
+						</td>
+					</div>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td class="to_left">所在地</td>
+					<div class="my_margin_left">
+						<td>
+							&nbsp;&nbsp;
+							<select>
+								<option>中国</option>
+								<option>美国</option>
+								<option>日本</option>
+								<option>法国</option>
+							</select>
+							<select>
+								<option>湖北</option>
+								<option>广东</option>
+								<option>江苏</option>
+								<option>浙江</option>
+							</select>
+							<select>
+								<option>武汉</option>
+								<option>广州</option>
+								<option>南京</option>
+								<option>杭州</option>
+							</select>
+						</td>
+					</div>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="to_left">手机号码</td>
+					<td><input class="to_input" name="phone_number" type="text" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<div class="my_margin_left">
+						<td>可通过该手机号码快速找回密码<br />中国大陆地区以外手机号码&nbsp;
+							<a href="index.html">点击这里</a>
+						</td>
+					</div>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td></td>
+					<div>
+						<td><input id="my_button" type="submit" value="立即注册" /></td>
+					</div>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>
+						<div class="my_margin_left">
+							<input class="my_font" type="checkbox" />同时开通QQ空间<br />
+							<input class="my_font" type="checkbox" />我已阅读并同意相关服务条款和隐私政策
+						</div>
+					</td>
+					<td></td>
+				</tr>
+
+			</table>
+		</form>
+	</body>
+
+</html>

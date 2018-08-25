@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>盒子模型2</title>
+		<style>
+			
+			#div1{
+				margin-left: 10px;
+				margin-top: 10px;
+				border: black solid 5px;
+				width: 320px;
+				height: 170px;
+				
+			}
+			
+			#div2{
+				margin-left: 30px;
+				
+			}
+			
+			#div21{
+				width: 20px;
+				height: 20px;
+				background-color: black;
+				border-radius: 50%;
+				-moz-border-radius: 50%;
+				-webkit-border-radius: 50%;
+				margin-top: 10px;
+				margin-left: 7px;
+			}
+			
+			
+			#div211{
+				width: 10px;
+				height: 10px;
+				background-color: white;
+				border-radius: 50%;
+				-moz-border-radius: 50%;
+				-webkit-border-radius: 50%;
+				position: relative;
+				top: 5px;
+				left: 5px;
+			}
+			
+			.my_class{
+				margin-top: 40px;
+				border: black solid 5px;
+				height:45px;
+				width: 40px;
+				float: left;
+			}
+			
+			.circle{
+				width: 70px;
+				height: 70px;
+				background-color: black;
+				border-radius: 50%;
+				-moz-border-radius: 50%;
+				-webkit-border-radius: 50%;
+				margin-top: 55px;
+				
+			}
+			#yuan1{
+				margin-left: 30px;
+				float: left;
+			}
+			
+			#yuan2{
+				margin-right: 30px;
+				float: right;
+			}
+			
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			<div id="div2" class="my_class">
+				<div id="div21">
+					<div id="div211"></div>	
+				</div>
+			</div>
+			<div class="my_class"></div>
+			<div class="my_class"></div>
+			<div class="my_class"></div>
+			<div class="my_class"></div>
+			<div id="yuan1" class="circle"></div>
+			<div id="yuan2" class="circle"></div>
+		</div>
+
+	</body>
+</html>

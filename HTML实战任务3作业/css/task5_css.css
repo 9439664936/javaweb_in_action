@@ -1,0 +1,52 @@
+table{
+	background-color: #F0FEFF;
+}
+
+.to_left{
+	width: 100px;
+	height: 40px;
+	text-align: right;
+	
+}
+
+.to_input{
+	margin-left: 10px;
+	height: 26px;
+	width: 285px;
+	margin-right: 10px;
+	
+}
+
+
+
+.my_margin_left{
+	/*margin: 0;
+	padding: 0;*/
+	margin-left: 10px;
+	
+}
+
+.my_font{
+	font-size: 14px;
+}
+
+tr #my_button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 285px;
+	height: 50px;
+	background-color: green;
+	border: none;
+	font-size: 24px;
+	color: white;
+	font-family: 宋体;
+}
+a{
+	text-decoration: none;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#all{
+				margin: 0 auto;
+				width: 1300px;
+				height: 640px;
+				background-color: black;
+				position: relative;
+				top: 20px;
+			} 
+			
+			#circle1{
+				width: 70px;
+				height: 70px;
+				background-color: white;
+				border-radius: 50%;
+				-moz-border-radius: 50%;
+				-webkit-border-radius: 50%;
+				float: right;
+			}
+			
+			#circle2{
+				width: 50px;
+				height: 50px;
+				background-color: black;
+				border-radius: 50%;
+				-moz-border-radius: 50%;
+				-webkit-border-radius: 50%;
+				float: right;
+			}
+			
+			#house{
+				width: 420px;
+				height: 415px;
+				position: relative;
+				left: 200px;
+				top: 100px;
+				float: left;
+			}
+			
+			#tri{
+				position: relative;
+				top: 20px;
+              	border-style: solid;
+            	border-width: 0px 210px 135px 210px;
+          	  	border-color: transparent transparent blue transparent;
+            	width: 0px;
+          	  	height: 0px;
+          	  	float: left;
+
+			}
+			
+			#rec{
+				position: relative;
+				left: 40px;
+				top: -20px;
+				width: 60px;
+				height: 155px;
+				background-color: blue;
+				float: left;
+			}
+
+			#rectangle{
+				height: 260px;
+				width: 320px;
+				background-color: orange;
+				position: relative;
+				top: 20px;
+				left:50px;
+				float: left;
+			}
+			
+			#rec1{
+				width: 104px;
+				height: 104px;
+				border: solid 5px white;
+				position: relative;
+				top: 20px;
+				left: 20px;
+				float: left;
+				
+			}
+			
+			#rec1_1{
+				width: 40px;
+				height: 40px;
+				border: solid 2px black;
+				position: relative;
+				top: 5px;
+				left: 5px;
+				float: left;
+			}
+			
+			#rec1_2{
+				width: 40px;
+				height: 40px;
+				border: solid 2px black;
+				position: relative;
+				top: 5px;
+				right: 5px;
+				float: right;
+			}
+			
+			#rec1_3{
+				width: 40px;
+				height: 40px;
+				border: solid 2px black;
+				position: relative;
+				top: 12px;
+				left: 5px;
+				float: left;
+			}
+			
+			#rec1_4{
+				width: 40px;
+				height: 40px;
+				border: solid 2px black;
+				position: relative;
+				bottom: -12px;
+				right: 5px;
+				float: right;
+			}
+			
+			#rec2{
+				width: 100px;
+				height: 178px;
+				border: solid 10px white;
+				position: relative;
+				bottom: -62px;
+				right: 20px;
+				float: right;
+			}
+			
+			#rec2_0{
+				width: 98px;
+				height: 176px;
+				border: solid 2px black;
+				float: left;
+			}
+			
+			.my_rec2_x{
+				width: 45px;
+				height: 40px;
+				border: solid 2px black;
+				float: left;
+			}
+			
+			#ground{
+				width: 1300px;
+				height: 58px;
+				background-color: green;
+				float: left;
+				
+				position: relative;
+				top: 100px;	
+			}
+				
+			#t{
+				width: 200px;
+				height: 351px;
+				position: relative;
+				right: 430px;
+				top: 163px;
+				float: right;
+				text-align: center;
+			}
+			
+			#t1{
+				position: relative;
+				left: 70px;
+              	border-style: solid;
+            	border-width: 0px 30px 30px 30px;
+          	  	border-color: transparent transparent green transparent;
+          	  	width: 0px;
+          	  	height: 0px;
+          	  	float: left;
+			}
+			
+			#t2{
+				position: relative;
+				left: 40px;
+              	border-style: solid;
+            	border-width: 0px 60px 60px 60px;
+          	  	border-color: transparent transparent green transparent;
+          	  	width: 0px;
+          	  	height: 0px;
+          	  	float: left;
+			}
+			
+			#t3{
+				position: relative;
+              	border-style: solid;
+            	border-width: 0px 100px 100px 100px;
+          	  	border-color: transparent transparent green transparent;
+          	  	width: 0px;
+          	  	height: 0px;
+          	  	float: left;
+			}
+			
+			#r{
+				width: 20px;
+				height: 162px;
+				background-color: green;
+				position: relative;
+				left: 90px;
+			}
+			
+			*{
+				margin: 0;
+				padding: 0;
+			}	
+			</style>
+	</head>
+	<body>
+		<!-- 总布局 -->
+		<div id="all">
+			<!-- 画月亮 -->
+			<div id="circle1"><div id="circle2"></div></div>		
+			<div style="clear: both;"></div>
+			<!-- 画房子 -->
+			<div id="house">
+				<!-- 画屋顶 -->
+				<div id="tri"><div id="rec"></div></div>
+				<!-- 房子主体 -->
+				<div id="rectangle">
+					<!-- 窗户 -->
+					<div id="rec1">
+						<div id="rec1_1"></div><div id="rec1_2"></div><div id="rec1_3"></div><div id="rec1_4"></div>				
+					</div>
+					<!-- 门 -->
+					<div id="rec2"><!-- 外边框  -->
+						<div id="rec2_0"> <!-- 内边框 -->
+							<div class="my_rec2_x"></div><div class="my_rec2_x"></div><div style="clear: both;"></div>
+							<div class="my_rec2_x"></div><div class="my_rec2_x"></div><div style="clear: both;"></div>
+							<div class="my_rec2_x"></div><div class="my_rec2_x"></div><div style="clear: both;"></div>					
+							<div class="my_rec2_x"></div><div class="my_rec2_x"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 画树 -->
+			<div id="t">
+				<div id="t1"></div>
+				<div style="clear: both;"></div>
+				<div id="t2"></div>
+				<div id="t3"></div>
+				<div style="clear: both;"></div>
+				<div id="r"></div>
+			</div>
+			<!-- 画绿地 -->
+			<div id="ground"></div>
+		</div>
+	</body>
+</html>

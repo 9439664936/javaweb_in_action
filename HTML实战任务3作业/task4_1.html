@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" lang="java">
+			function func(obj){
+				var myFrame="mainFrame" + obj.value;
+				window.open(obj.title,myFrame);
+			}
+		</script>
+		
+		<style>
+			#all{
+				margin: 0 auto;
+				width: 1300px;
+			}
+			
+			#top{
+				margin: 0 atuo;
+				line-height: 150px;
+				font-family: 楷体;
+				font-size: 24px;
+				width: 1300px;
+				height: 150px;
+				text-align: center;
+				border-bottom: solid 5px black;
+			}
+			
+			#left{
+				width: 150px;
+				height: 800px;
+				border-right: solid 5px black;
+				text-align: center;
+				float: left;
+			}
+			
+			#left ul{
+				list-style-type: none;
+			}
+			
+			#right{
+				width: 1000px;
+				height: 750px;
+				float: left;
+			}
+			
+			.my_class{
+				width: 1000px;
+				height: 250px;
+				
+			}
+						
+			*{
+				padding: 0;
+				margin: 0;
+			}
+									
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			<div id="top">用框架将任务1、任务2、任务3显示在一个页面中</div>
+			<div id="left">
+				<div style="height: 50px; width: auto;"></div>
+					<ul>
+						<li title="task1.html" onclick="func(this)" value="1">打开任务1</li><br />
+						<li title="task2.html" onclick="func(this)" value="2">打开任务2</li><br />
+						<li title="task3.html" onclick="func(this)" value="3">打开任务3</li><br />
+					</ul>
+				</div>
+			</div>
+			<div id="right">
+				<div class="my_class"><iframe name="mainFrame1" style="width: 100%; height: 100%;"></iframe></div>
+				<div class="my_class"><iframe name="mainFrame2" style="width: 100%; height: 100%;"></iframe></div>
+				<div class="my_class"><iframe name="mainFrame3" style="width: 100%; height: 100%;"></iframe></div>			
+			</div>
+		</div>	
+	</body>
+</html>

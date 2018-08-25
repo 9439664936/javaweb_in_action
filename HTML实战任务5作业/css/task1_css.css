@@ -1,0 +1,82 @@
+#the_body {
+	margin: 0 auto;
+	width: 1000px;
+	background-color: lightpink;
+}
+
+#all {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#top img{
+	width: 800px;
+	height: 137px;
+}
+
+.my_button {
+	float: left;
+	position: relative;
+	text-align: center;
+	line-height: 36px;
+}
+
+#top .my_button img {
+	padding: 2px;
+	width: 110px;
+	height: 36px;
+}
+
+.my_href {
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#left {
+	position: relative;
+	top: 5px;
+	left: 5px;
+	width: 200px;
+	background-color: white;
+	float: left;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#right {
+	width: 580px;
+	float: right;
+	position: relative;
+	top: 5px;
+	right: 5px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	border-top: 1px dashed black;
+}
+
+.my_style{
+	float: left;
+	margin: 15px;
+	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
