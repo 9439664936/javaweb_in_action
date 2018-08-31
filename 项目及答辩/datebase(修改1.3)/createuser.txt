@@ -1,0 +1,17 @@
+drop table if exists User;
+create table User
+(
+	user_id int(11) not null auto_increment,
+	user_name varchar(10),
+	user_password char(16),
+	user_truename char(10),
+	user_sex char(2),
+	user_birthday char(20),
+	user_idcard char(20),
+	user_address char(20),
+	user_phonenumber bigint,
+	user_email char(26),
+	user_postcode char(10),
+	primary key(user_id)
+)
+DEFAULT CHARSET=utf8

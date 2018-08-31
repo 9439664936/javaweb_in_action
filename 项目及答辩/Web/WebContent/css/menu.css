@@ -1,0 +1,69 @@
+/*
+			 * 导航栏
+			 */
+
+#title{
+	margin-left:400px ;
+	color: orange; 
+	font-size: 18px; f
+	ont-family: "黑体";
+}
+#top {
+	border-bottom: 5px solid orangered;
+	height: 109px;
+}
+
+#top_up {
+	margin-left: 450px;
+}
+
+#top_up ul {
+	text-align: center;
+	background-image: url(../img/topmenu_bg.jpg);
+	width: 395px;
+	height: 25px;
+}
+
+#top_up ul li {
+	font-family: "微软雅黑";
+	list-style-type: none;
+	display: inline;
+}
+
+#top_up ul li a {
+	text-decoration: none;
+	color: gray;
+	font-size: x-small;
+}
+
+#top_up ul li a:hover {
+	text-decoration: none;
+	color: orange;
+	font-size: x-small;
+}
+
+#top_bottom_right {
+	float: right;
+	margin-top: 25px;
+}
+
+#top_bottom_right ul li {
+	list-style-type: none;
+	line-height: 41px;
+	display: inline-block;
+	text-align: center;
+	background: url(../img/menu.jpg);
+	height: 41px;
+	width: 87px;
+}
+
+#top_bottom_right ul li:hover {
+	background: url(../img/menu_hover.jpg);
+}
+
+#top_bottom_right ul li a {
+	font-family: "黑体";
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}

@@ -1,0 +1,11 @@
+drop table if exists Cart;
+create table Cart
+(
+	cart_id int(11) not null auto_increment,
+	user_name varchar(11),
+	food_id int,
+	food_single_price int (6),
+	food_quantity int(6),
+	primary key(cart_id)
+)
+DEFAULT CHARSET=utf8

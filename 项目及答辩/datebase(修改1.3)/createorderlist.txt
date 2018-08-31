@@ -1,0 +1,17 @@
+drop table if exists OrderList;
+create table OrderList
+(
+	order_id int(11) not null auto_increment,
+	food_name varchar(10),
+	user_id int not null,
+	user_name varchar(10),
+	user_phonenum bigint,
+	user_address char(11),
+	food_quantity int(6),
+	food_single_price int (6),
+	food_sum_price int (6),
+	food_order_time timestamp not null DEFAULT CURRENT_TIMESTAMP,
+	food_deliver char(4) default '否',
+	primary key(order_id)
+)
+DEFAULT CHARSET=utf8

@@ -1,0 +1,14 @@
+drop table if exists Food;
+create table Food
+(
+	food_id int(11) not null auto_increment,
+	food_name varchar(10),
+	food_price int (6),
+	food_vip int(6),
+	food_type char(10),
+	food_ingredient char(20),
+	food_sale_quantity int(6),
+        food_brief varchar(100),
+	primary key(food_id)
+)
+DEFAULT CHARSET=utf8

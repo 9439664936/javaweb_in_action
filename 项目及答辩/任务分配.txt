@@ -1,0 +1,19 @@
+1.ppt 1个人   李佳森 
+2.数据库设计     1个人
+3.servlet jsp   4个人
+注册      曹宇航
+首页登录 张宇洋
+我的餐车 余仁睿
+订单查询  谢琛晨
+销售排行榜 李佳森
+表
+User（user_id,user_name,user_password,）
+Food(food_id,food_name,food_price,food_vip,food_type,food_ingredient,food_sale_quantity)
+Order
+(food_name,  user_name,user_phonenum,user_address,food_quantity,food_single_price,
+food_sum_price,food_order_time,food_deliver)
+Cart(user_id,food_name,food_single_price,food_quantity,food_sum_price)
+
+
+主要功能：
+注册登录 菜品管理 订单管理 
